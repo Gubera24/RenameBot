@@ -17,7 +17,7 @@ async def start(client, message):
     button=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("⚔ ᴅᴇᴠs ⚔", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('〄 sᴜᴘᴘᴏʀᴛ 〄', url='https://t.me/Elsasupportgp'),
+                InlineKeyboardButton('〄 sᴜᴘᴘᴏʀᴛ 〄', url='https://t.me/+-dxpAX6SVhliMGVl'),
                 InlineKeyboardButton('〄 ᴅᴏɴᴀᴛᴇ 〄', callback_data='donate')
                 ],[
                 InlineKeyboardButton('〄 ᴀʙᴏᴜᴛ 〄', callback_data='about'),
@@ -48,7 +48,7 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("⚔ ᴅᴇᴠs ⚔", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('〄 sᴜᴘᴘᴏʀᴛ 〄', url='https://t.me/Elsasupportgp'),
+                InlineKeyboardButton('〄 sᴜᴘᴘᴏʀᴛ 〄', url='https://t.me/+-dxpAX6SVhliMGVl'),
                 InlineKeyboardButton('〄 ᴅᴏɴᴀᴛᴇ 〄', callback_data='donate')
                 ],[
                 InlineKeyboardButton('〄 ᴀʙᴏᴜᴛ 〄', callback_data='about'),
@@ -80,7 +80,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=script.ABOUT_TXT.format(client.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[    
-               InlineKeyboardButton("〄 sᴏᴜʀᴄᴇ 〄", url="https://github.com/Devil-Botz/RenameBot") ],[      
+               InlineKeyboardButton("〄 sᴏᴜʀᴄᴇ 〄", url="https://github.com/Gubera24/RenameBot") ],[      
                InlineKeyboardButton("🗑️ᴄʟᴏsᴇ🗑️", callback_data = "close"),
                InlineKeyboardButton("⌫ʙᴀᴄᴋ☽", callback_data = "start")
                ]]
